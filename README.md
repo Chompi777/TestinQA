@@ -30,18 +30,21 @@ Antes de ejecutar el script, asegúrate de tener instalado:
    ```sh
    pip install selenium
 
-## 🔧 Configuración y Ejecución
-1.Clona este repositorio en tu máquina local:
+## 🔧 Configuración y Ejecución  
 
-git clone https://github.com/Chompi777/TestinQA/
-cd tu-repositorio
+### 1️⃣ Clonar el repositorio  
+Primero, clona este repositorio en tu máquina local y accede a la carpeta del proyecto:  
 
-2.Ejecuta el script de automatización con el siguiente comando:
+```sh
+git clone https://github.com/Chompi777/TestinQA.git  
+cd TestinQA
+
+2️⃣ Ejecutar el script
+Ejecuta el script de automatización con el siguiente comando:
 python test_login.py
 
-3.Verifica los resultados en la terminal.
-Si todo funciona correctamente, deberías ver el mensaje:
-
+3️⃣ Verificar los resultados
+Si todo funciona correctamente, deberías ver el siguiente mensaje en la terminal:
 ✅ Ingreso exitoso. Usuario autenticado correctamente en https://app.ed.team/
 
 ## 📌 Contáctame  
