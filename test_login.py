@@ -34,17 +34,17 @@ try:
     # Llenar los campos del formulario
     escribir_campo(By.ID, "name", "Salvador")
     escribir_campo(By.ID, "surname", "Guerra")
-    escribir_campo(By.ID, "email", "germanfeo77@gmail.com")
+    escribir_campo(By.ID, "email", "salvadorguerra@gmail.com")
     escribir_campo(By.ID, "password", "Morelia123")
     escribir_campo(By.ID, "confirmedPassword", "Morelia123")
     escribir_campo(By.ID, "city", "San Salvador")
     
-    # Seleccionar el país "Argentina"
+    # Seleccionar el país "El Salvador"
     select_country = wait.until(EC.element_to_be_clickable((By.ID, "country_name")))
     select_country.click()
-    country = wait.until(EC.element_to_be_clickable((By.XPATH, "//option[contains(text(), 'Argentina')]")))
+    country = wait.until(EC.element_to_be_clickable((By.XPATH, "//option[contains(text(), 'El Salvador')]")))
     country.click()
-    print("✅ Se seleccionó 'Argentina' como país")
+    print("✅ Se seleccionó 'El Salvador' como país")
 
     # Marcar el checkbox de términos y condiciones
     checkbox = wait.until(EC.element_to_be_clickable((By.ID, "accpet")))
@@ -63,7 +63,7 @@ try:
     driver.get("https://app.ed.team/login")
 
     # Esperar que cargue la página de login
-    escribir_campo(By.ID, "email", "stevepanameno@gmail.com")
+    escribir_campo(By.ID, "email", "salvadorguerra@gmail.com")
     escribir_campo(By.ID, "password", "Morelia123")
 
     # Hacer clic en el botón de inicio de sesión
